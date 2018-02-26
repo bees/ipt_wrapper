@@ -22,7 +22,8 @@ defmodule IPTWrapper.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:porcelain, "~> 2.0"}
+      {:porcelain, "~> 2.0"},
+      {:temp, "~> 0.4"}
     ]
   end
 end
